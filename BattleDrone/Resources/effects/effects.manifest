@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 3026712102
+CRC: 46969258
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: funnel_assetmac
+      Name: funnel_asset
       Dependencies: {}

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4271777416
+CRC: 854190769
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cf144d5ba9594576693a17a969f96170
+    Hash: 7b77e6f59bbdff168b44bc8b64503543
   TypeTreeHash:
     serializedVersion: 2
     Hash: 325c034e4b1478fb06f87a1cb5eae0e4
@@ -30,6 +30,7 @@ ClassTypes:
 Assets:
 - Assets/Funnel/Assets/FunnelHit.prefab
 - Assets/Funnel/Assets/Splash.prefab
+- Assets/Funnel/Assets/EscutcheonTrail.prefab
 - Assets/Funnel/Assets/FunnelMuzzle.prefab
 - Assets/Funnel/Assets/Jet.prefab
 - Assets/Funnel/Assets/FunnelBulletTrail.prefab
