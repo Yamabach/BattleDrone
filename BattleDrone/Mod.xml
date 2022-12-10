@@ -86,7 +86,6 @@ Funnel Bit!
 	<!-- Any blocks your mod adds to the game.
 		 The path attribute is relative to the location of this file. -->
 	<Blocks>
-		<!-- <Block path="SomeBlock.xml" /> -->
 		<Block path="Funnel001.xml" />
 	</Blocks>
 	
@@ -113,40 +112,27 @@ Funnel Bit!
 		
 	</Keys>
 	
-	<!-- The mod loader will automatically make all resources listed here available
-		 to your mod via the ModResource class.
-		 The path attribute is relative to the Resources/ directory.
-		 You also need to list resources used in your Blocks and Entities.
-		 Available resource types are Mesh, Texture, AudioClip, and AssetBundle. -->
 	<Resources>
+		<!-- Block Appearance -->
 		<Mesh name="bit-base-mesh" path="bit_base.obj" />
 		<Mesh name="bit-mesh" path="bit.obj" />
 		<Texture name="bit-base-tex" path="bit_base.png" />
 		<Texture name="bit-tex" path="bit.png" />
 		
-		<!--レーザーmodより暫定移植-->
-		<Texture name="thumbnail" path="Thumbnail.png" />
-		<Texture name="icon" path="Icon.png" />
-
-		<Mesh name="laser-001mesh" path="Laser001.obj" />
-		<Mesh name="laser-002mesh" path="Laser002.obj" />
-		<Mesh name="distoray3mesh" path="Distoray3.obj" />
-		<Mesh name="chaffmesh" path="Chaff_Launcher.obj" />
-		<Mesh name="proj-001" path="Projectile002(Nothing).obj" />
-
-		<Texture name="bodytex" path="Laser_Body_tex.png" />
-		<Texture name="bodytex2" path="Laser_Body_tex2.png" />
+		<!-- Projectile Appearance -->
+		<Mesh name="proj-001" path="nothing.obj" />
 		<Texture name="projectiletex" path="white_tex.png" />
 
-		<AudioClip name="laser-001" path="laser-001.wav" />
-		<AudioClip name="laser-002" path="laser-002.wav" />
-		<AudioClip name="hitsound-001" path="laser-hit-001.wav" />
-		<AudioClip name="hitsound-002" path="laser-hit-002.wav" />
-		<AudioClip name="laser-003" path="d3-001.wav"/>
-		<AudioClip name="hitsound-003" path="d3-hit-001.wav" />
-		<AudioClip name="projsound-003" path="d3-proj-001.wav" />
-		<AudioClip name="chaffsound" path="chaff-001.wav" />
+		<!-- Drone Sound -->
+		<AudioClip name="drone-active-sound" path="DroneSE_01.wav" />
+		<AudioClip name="drone-return-sound" path="DroneSE_Return02.wav" />
 
+		<!-- Projectile Sound -->
+		<AudioClip name="fire" path="d3-001.wav"/>
+		<AudioClip name="hitsound" path="DroneSE_Hit.wav" />
+		<AudioClip name="projsound" path="d3-proj-001.wav" />
+
+		<!-- Asset Bundle -->
 		<AssetBundle name="D_myasset" path="effects/funnel_asset" />
 		<AssetBundle name="D_myassetMac" path="effectsMac/funnel_assetmac" />
 		<!--

@@ -111,14 +111,14 @@
 			<IdleModeKey key="idle-mode" />
 			<BurstModeKey key="burst-mode" />
 			<OffenceModeKey key="offence-mode" />
-			<FireKey key="fire" />
+			<!-- <FireKey key="fire" /> -->
 			<RotateKey key="rotate-drone" />
 			<RotateGainSlider key="rotate-gain" />
 
 			<DroneMass>0.1</DroneMass>
 			<DroneDrag>0.5</DroneDrag>
 			<DroneAngularDrag>0.05</DroneAngularDrag>
-			<FuelEconomy>10</FuelEconomy>
+			<FireCost>5</FireCost>
 			<ForceGain>100</ForceGain>
 
 			<!-- Effect -->
@@ -129,17 +129,11 @@
 			<DroneReturnEffect>Splash</DroneReturnEffect>
 
 			<!-- Sounds -->
-			<DroneSounds>
-				<AudioClip name="laser-003" />
-			</DroneSounds>
-			<DroneLaunchSounds>
-				<AudioClip name="hitsound-003" />
-			</DroneLaunchSounds>
-			<DroneReturnSounds>
-				<AudioClip name="projsound-003" />
-			</DroneReturnSounds>
+			<DroneActiveSound name="drone-active-sound" />
+			<DroneLaunchSound name="drone-return-sound" />
+			<!-- 音がキンキンする -->
+			<DroneReturnSound name="drone-return-sound" />
 		</AdRemoteDroneProp>
-		
 		
 		<!-- シューティングモジュール -->
 		<AdShootingProp modid="a4577151-2173-4084-a456-4b29e8d3e01f">
@@ -179,7 +173,6 @@
 		  <useTimefuse>true</useTimefuse>
 		  <TimefuseSlider key="fuse-timer" />
 		  <HoldToShootToggle key="hold-to-shoot" />
-			<RaondomFuseInterval>0.2</RaondomFuseInterval>
 
 		  <ProjectileStart>
 			<Position x="0" y="0.0" z="1.8" />
@@ -230,13 +223,13 @@
 		  <PoolSize>50</PoolSize>
 
 		  <Sounds>
-			<AudioClip name="laser-003" />
+			<AudioClip name="fire" />
 		  </Sounds>
 		  <HitSounds>
-			<AudioClip name="hitsound-003" />
+			<AudioClip name="hitsound" />
 		  </HitSounds>
 		  <ProjectileSounds>
-			<AudioClip name="projsound-003" />
+			<AudioClip name="projsound" />
 		  </ProjectileSounds>
 
 		</AdShootingProp>
