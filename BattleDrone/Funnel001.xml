@@ -156,13 +156,13 @@
 
 			<Texture name="projectiletex" />
 
-			<Mass>0.2</Mass>
+			<Mass>0.01</Mass>
 			<Drag>0.0</Drag>
-			<AngularDrag>0</AngularDrag>
+			<AngularDrag>5.0</AngularDrag>
 			<IgnoreGravity>True</IgnoreGravity>
 			<EntityDamage>40</EntityDamage>
 			<BlockDamage>0.3</BlockDamage>
-			<Attaches>true</Attaches>
+			<Attaches>false</Attaches>
 			<CollisionTypeS>ContinuousDynamic</CollisionTypeS>
 
 		  </ShootingState>
@@ -186,29 +186,29 @@
 			<Scale x="1.0" y="1.0" z="1.0" />
 		  </ShotFlashPosition>
 
-		  <PurgeVector x="0.0" y="0.0" z="0.0" />
-		  <PurgePower>5.0</PurgePower>
+		  <PurgeVector x="0.0" y="0.0" z="1.0" />
+		  <PurgePower>0</PurgePower>
 
 		  <ShowPlaceholderProjectile>true</ShowPlaceholderProjectile>
 
 		  <DefaultAmmo>1000</DefaultAmmo>
 		  <AmmoType>Cannon</AmmoType>
 		  <ProjectilesExplode>true</ProjectilesExplode>
-		  <ExplodeRadius>1</ExplodeRadius>
-		  <ExplodePower>20</ExplodePower>
-		  <ExplodeUpPower>0.0</ExplodeUpPower>
+		  <ExplodeRadius>3</ExplodeRadius>
+		  <ExplodePower>2500</ExplodePower>
+		  <ExplodeUpPower>0</ExplodeUpPower>
 			
-		  <useBooster>true</useBooster>
+		  <useBooster>false</useBooster>
 		  <useExplodeRotation>true</useExplodeRotation>
 		  <useJamReducer>true</useJamReducer>
 		  <useBeacon>true</useBeacon>
 		  <GuidRatio>0.0</GuidRatio>
-		  <GuidType>ITANO</GuidType>
+		  <!--<GuidType>ITANO</GuidType>-->
 
 		  <useDelay>true</useDelay>
 		  <DelayTime>0</DelayTime>
 
-		  <SupportsExplosionGodTool>False</SupportsExplosionGodTool>
+		  <SupportsExplosionGodTool>false</SupportsExplosionGodTool>
 		  <ProjectilesDespawnImmediately>false</ProjectilesDespawnImmediately>
 			
 		  <AssetBundleName name="D_myasset" />
