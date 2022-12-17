@@ -201,7 +201,7 @@
 		  <useBooster>false</useBooster>
 		  <useExplodeRotation>true</useExplodeRotation>
 		  <useJamReducer>true</useJamReducer>
-		  <useBeacon>true</useBeacon>
+		  <useBeacon>false</useBeacon>
 		  <GuidRatio>0.0</GuidRatio>
 		  <!--<GuidType>ITANO</GuidType>-->
 
