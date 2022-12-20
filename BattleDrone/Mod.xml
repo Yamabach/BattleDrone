@@ -131,8 +131,10 @@ All Range Attack!
 
 		<!-- Projectile Sound -->
 		<AudioClip name="fire" path="d3-001.wav"/>
+		<!--<AudioClip name="fire" path="DroneSE_Fire.wav" /> -->
+		<AudioClip name="projsound" path="DroneSE_Fire01.wav" />
 		<AudioClip name="hitsound" path="DroneSE_Hit.wav" />
-		<AudioClip name="projsound" path="d3-proj-001.wav" />
+		<!--<AudioClip name="projsound" path="d3-proj-001.wav" />-->
 
 		<!-- Asset Bundle -->
 		<AssetBundle name="D_myasset" path="effects/funnel_asset" />
