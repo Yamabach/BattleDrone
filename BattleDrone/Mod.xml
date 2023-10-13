@@ -9,7 +9,7 @@
 	<Name>BattleDrone</Name>
 	<Author>Yamabach</Author> <!-- FIX: Insert your name here. -->
 	<!-- Major.Minor.Build -->
-	<Version>1.0.0</Version>
+	<Version>1.1.0</Version>
 	
 	<Description>
 All Range Attack!
@@ -87,6 +87,7 @@ All Range Attack!
 		 The path attribute is relative to the location of this file. -->
 	<Blocks>
 		<Block path="Funnel001.xml" /> <!-- 10 -->
+		<!-- <Block path="RemoteAttachmentBlock.xml" /> --> <!-- 20 -->
 	</Blocks>
 	
 	<!-- Any entities (level objects) your mod adds to the game.
@@ -116,8 +117,10 @@ All Range Attack!
 		<Texture name="icon" path="BattleDrone_Thumbnail.png" />
 		
 		<!-- Block Appearance -->
+		<Mesh name="bit-all-mesh" path="deactivated_bit.obj" />
 		<Mesh name="bit-base-mesh" path="bit_base.obj" />
 		<Mesh name="bit-mesh" path="bit.obj" />
+		<Texture name="bit-all-tex" path="deactivated_bit.png" />
 		<Texture name="bit-base-tex" path="bit_base.png" />
 		<Texture name="bit-tex" path="bit.png" />
 		
@@ -131,8 +134,10 @@ All Range Attack!
 
 		<!-- Projectile Sound -->
 		<AudioClip name="fire" path="d3-001.wav"/>
+		<!--<AudioClip name="fire" path="DroneSE_Fire.wav" /> -->
+		<AudioClip name="projsound" path="DroneSE_Fire01.wav" />
 		<AudioClip name="hitsound" path="DroneSE_Hit.wav" />
-		<AudioClip name="projsound" path="d3-proj-001.wav" />
+		<!--<AudioClip name="projsound" path="d3-proj-001.wav" />-->
 
 		<!-- Asset Bundle -->
 		<AssetBundle name="D_myasset" path="effects/funnel_asset" />
