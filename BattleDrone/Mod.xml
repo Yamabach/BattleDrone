@@ -117,10 +117,10 @@ All Range Attack!
 		<Texture name="icon" path="BattleDrone_Thumbnail.png" />
 		
 		<!-- Block Appearance -->
-		<Mesh name="bit-all-mesh" path="deactivated_bit.obj" />
+		<Mesh name="bit-all-mesh" path="bit_diactivated.obj" />
 		<Mesh name="bit-base-mesh" path="bit_base.obj" />
 		<Mesh name="bit-mesh" path="bit.obj" />
-		<Texture name="bit-all-tex" path="deactivated_bit.png" />
+		<Texture name="bit-all-tex" path="bit_diactivated.png" />
 		<Texture name="bit-base-tex" path="bit_base.png" />
 		<Texture name="bit-tex" path="bit.png" />
 		
